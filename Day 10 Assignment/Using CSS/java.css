@@ -1,0 +1,32 @@
+body {
+    font-family: Arial;
+    font-size: 12px;
+  }
+  
+  h1 {
+    font-size: 2.5em;
+  }
+  
+  dd {
+    font-size: 1.5em;
+  }
+  
+  p {
+    color: #FF0000;
+    line-height: 1.5;
+  }
+  
+  .description01 {
+    font-style: italic;
+    color: #F500FF; 
+  }
+  
+  .description07 {
+    font-style: italic;
+    color: #FF4500;
+  }
+  
+  em {
+    font-weight: bold;
+    color: #FF0000;
+  }
