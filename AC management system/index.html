@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AC Maintainence Service</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>AC Maintainence Service </h1>
+    <form>
+        <label for="customerName">Customer Name: </label>
+        <input type="text" id="customerName" required><br>
+        <label for="gender">Gender</label>
+        <input type="radio" id = "male" name="gender" value = "Male">Male
+        <input type="radio" id = "female" name="gender" value = "Female">Female<br>
+        <label for="mobileNo">Mobile Number: </label>
+        <input type="tel" id="mobileNo" required><br>
+        <label for="emailID">Email ID: </label>
+        <input type="email" id="emailID" required><br>
+        <label for="address">Address: </label>
+        <textarea name="address" id="address" cols="25" rows="5" required></textarea><br>
+        <label for="acType">AC Type: </label>
+        <select name="acType" id="acType" required>
+            <option value="split">Split</option>
+            <option value="window">Window</option>
+            <option value="centralised">Centralised</option>
+            <option value="portable">Portable</option>
+        </select><br>
+        <label for="serviceType">Service Type: </label>
+        <select name="serviceType" id="serviceType">
+            <option value="cleaning">Cleaning</option>
+            <option value="repair">Repair</option>
+            <option value="gasRefill">Gas Refill</option>
+        </select><br>
+        <label for="dateForAppointment">Date For Appointment: </label>
+        <input type="date" id="dateForAppointment"required><br>
+        <label for="yearlyMaintainance">Yearly Maintainance</label>
+        <input type="checkbox" id="yearlyMaintainance"><br>
+        <label for="duration">Duartion in Month from the Previous Service: </label>
+        <input type="range" id="duration" min="0" max="6" step="1" value= required><br>
+        <button type="button" id="submit">Submit</button>
+        <button type="reset">Clear</button>
+        <div id="result"></div>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
